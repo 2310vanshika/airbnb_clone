@@ -1,0 +1,51 @@
+# Node.js modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database and temporary files
+*.sqlite
+*.db
+/tmp/
+*.pid
+*.seed
+
+# Build files
+dist/
+
+# Debug and profiling output
+*.out
+*.map
+*.profile
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor settings
+*.swp
+.idea/
+.vscode/
+*.iml
+
+# Optional npm/yarn lock files (if not used)
+package-lock.json
+yarn.lock
+
+# Testing output
+/coverage/
+*.lcov
+
+# Temporary files
+*.bak
+*.tmp
